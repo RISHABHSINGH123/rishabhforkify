@@ -1,0 +1,511 @@
+#addButton{
+  height: 3rem;
+  width: 7rem;
+  border-radius: 40px;
+}
+#addButton:hover{
+  height: 3.5rem;
+  width: 7.5rem;
+}
+#aSignUp{
+  cursor: pointer;
+}
+body {
+  background: linear-gradient(to right,#FAD588,#F4AE84);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#close{
+  text-align: right;
+}
+#cancel,#close2,#ulogin,#loginButton,#signUpButton,#aSignUp,#nSignUp,#login{
+  border-radius: 40px;
+}
+#cancel:hover,#ulogin:hover,#loginButton:hover,#signUpButton:hover,#aSignUp:hover,#nSignUp:hover{
+  height: 3rem;
+  width: 6rem;
+}
+code{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#form{
+  background: #f5f5f5;
+  height: 62vh;
+  border: 2px solid black;
+  width: 30vw;
+  position: fixed;
+  display: none;
+  left: 40rem;
+  position: absolute;
+}
+#first{
+  text-align: center;
+}
+#favButton{
+  border-radius: 40px;
+  margin: 1rem;
+}
+#favButtonDiv{
+  text-align: center;
+  display: none;
+}
+#footer{
+  background-color: black;
+  height: 3.5rem; 
+  width: 100%;
+  display: grid;
+  grid-template-columns: 15% 40% 15% 10% 20%;
+}
+#footerTitle{
+  margin: auto;
+  font-weight: bold;
+  color:white;
+  margin:auto;
+  font-size: 2rem;
+  text-align: center;
+}
+#header{
+  height: 4rem;
+  background-color: #181818;
+  width: 100%;
+  display: grid;
+  grid-template-columns:20% 50% 10% 10% 10%;
+}
+#headertitle{
+  font-weight: bold;
+  color:white;
+  margin:auto;
+  font-size: 2rem;
+  text-align: center;
+}
+#heart{
+  margin: auto;
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}
+#heart2{
+  display: none;
+}
+#menu{
+  margin: auto;
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: none;
+}
+.icon{
+  height: 2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.icon:hover{
+  height: 2.5rem;
+}
+#midCloseDiv{
+  display: none;
+}
+#iconImage{
+  margin: auto;
+}
+input[type="text"],input[type="password"],input[type="email"]{
+  border-radius: 1rem;
+  border:2px solid rgb(220, 248, 214);
+  width:13rem;
+  transition:0.25s;
+  text-align: center;
+}
+input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus{
+  width:14rem;
+}
+input[type="text"]:hover,input[type="password"]:hover,input[type="email"]:hover{
+  width:14rem;
+}
+#itemlist{
+  list-style-type: none;
+}
+.items{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  cursor: pointer;
+}
+label{
+  text-align: center;
+  width: 10rem;
+}
+#listcontainer{
+
+  background-color: #f5f5f5;
+  border-right: 2px solid orange;
+  /*cursor: pointer;*/
+}
+#listCloseDiv{
+  display: none;
+}
+#login,#signup{
+  height: 3rem;
+  width: 6rem;
+  margin: auto;
+}
+#login:hover{
+  height: 3.5rem;
+  width: 6.5rem;
+}
+#signupDiv,#loginDiv{
+  height: 100%;
+  margin: auto;
+  background-color: lightgreen;
+}
+#menuBar{
+  display: none;
+  height: 3rem;
+  width: 3rem;
+}
+#middle{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 100%;
+}
+#nav{
+  display: grid;
+  grid-template-columns:50% 50%;
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+  cursor: pointer;
+}
+
+#prev,#next{
+  width: 8rem;
+  border-radius: 40px;
+}
+#privacy{
+  margin: auto;
+  color: #9D9A9A;
+  margin:auto;
+  font-size: 1rem;
+  text-align: center;
+}
+#recipeimg{
+  height: 3rem;
+  border-radius: 50%;
+  width: 3rem;
+}
+#recipeImg{
+  height: 20rem;
+  width: 20rem;
+  
+}
+#recipeTitle{
+  text-align: center;
+}
+#root{
+  margin:0;
+  background-color: white;
+}
+#searchbar{
+  border: 1px solid white;
+  width: 100%;
+  text-align: center;
+  height: 2.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 0;
+  border-radius: 40px;
+}
+#searchButton{
+  border-radius: 40px;
+  height: 3rem;
+  width: 7rem;
+  margin: auto;
+  margin-left: 0.5rem;
+  /*background-color: #FAD688;*/
+}
+#searchButton:hover{
+  height: 3.5rem;
+  width: 7.5rem;
+}
+#second{
+  display: grid;
+  grid-template-rows: auto auto;
+}
+#shopping{
+  margin: 0;
+  /*background: linear-gradient(to right,#FFB75E,#ED8F03);*/
+  background: linear-gradient(to bottom,orange,pink);
+  display: none;
+  /*background: linear-gradient(to right,#ed213a,#ED8F03);*/
+}
+#shoppingTitle{
+  text-align: center;
+}
+#show{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  width: 100%;
+  /*border-right: 2px solid orange;*/
+  background: linear-gradient(to right,#70e1f5
+  ,#ffd194);
+  /*background: linear-gradient(to right,#ed213a,#ED8F03);*/
+  /*overflow-y: scroll;
+  height: 750px;*/
+}
+#show-Img{
+  height: 100%;
+  background-color: white;
+  margin: 1rem;
+}
+.slider {
+	overflow-y: hidden;
+	max-height: 500px; /* approximate max height */
+
+	transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+td{
+  text-align: center;
+}
+#transparentBack{
+  display: none;
+  margin-top: -3rem;
+  position: fixed;
+  /* height: 100vh; */
+  height: 120vh;
+  width: 100vw;
+  background: #181818;
+  opacity: 0.9;
+}
+#itemlist{
+  text-align: left;
+}
+#listCloseDiv{
+  display: grid;
+  grid-template-columns: 90% 10%;
+  display: none;
+}
+#slider{
+  height: 3rem;
+  width: 3rem;
+  display: none;
+}
+
+#find{
+  border-radius: 40px;
+  height: 4rem;
+  width: 8rem;
+}
+/* #userLogin{
+  margin: auto;
+  height: 3rem;
+  width: 8rem;
+} */
+#welcome{
+  text-align: center;
+}
+#find{
+  display: none;
+}
+#bu{
+  width: 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:450px) {
+  #searchbar{
+    display: none;
+  }
+  #login{
+    display: none;
+  }
+  #heart{
+    display: none;
+  }
+  #heart2{
+    height: 2.5rem;
+    width: 2.5rem;
+    display: block;
+    margin: auto;
+  }
+  #searchButton{
+    display: none;
+  }
+  #header{
+    height: 3rem;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+  }
+  #headertitle{
+    margin: 0;
+    margin-left: 20px;
+    justify-self: left;
+  }
+  #menu{
+    display: block;
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+  }
+  #menuBar{
+    display: none;
+    grid-template-rows:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    position: fixed;
+    height: 40rem;
+    width: 80%;
+    left: 0rem;
+    background-color: #181818;
+    border: 2px solid black;
+  }
+  #middle{
+    display: grid;
+    grid-template-columns: 100% 0% 0%;
+  }
+  /* #listcontainer{
+    display: none;
+  } */
+  #listcontainer{
+    border: 0;
+    text-align: left;
+    width: 100%;
+  }
+  #midCloseDiv{
+    display: block;
+    text-align: right;
+  }
+  #listCloseDiv{
+    display: block;
+    text-align: right;
+  }
+  #search{
+    width: 100%;
+    border-radius: 0;
+  }
+  .menuItem{
+    cursor: pointer;
+  }
+  #form{
+    position: fixed;
+    top: 3rem;
+    height: 66vh;
+    width: 100vw;
+    z-index: 1;
+    left: 0px;
+    }
+    /* #recipeimg{
+      display: none;
+    } */
+    .recipesIdentity{
+      margin: 0;
+    }
+    #recipeImg{
+      height: 10rem;
+      width: 15rem;
+    }
+    #shopping{
+      display: none;
+      height: 50vw;
+    }
+    #footer{
+      display: grid;
+      grid-template-columns: 25% 10% 20% 15% 30%;
+      height: 4rem;
+    }
+    .icon{
+      height: 1rem;
+      margin: 0.5rem;
+      cursor: pointer;
+    }
+    #slider{
+      height: 1.5rem;
+      width: 1.5rem;
+      position: fixed;
+      top: 20rem;
+      left: 0px;
+    }
+    #new{
+      text-align: center;
+      margin: auto;
+      font-size: 2rem;
+      width: 100%;
+    }
+  #show{
+    display: none;
+  }
+  #welcome{
+    height: 71.5vh;
+    
+    display: grid;
+    grid-template-rows: 25% auto auto 45%;
+  }
+  #find{
+    position: relative;
+    left: 7.5rem;
+  }
+}
